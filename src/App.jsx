@@ -47,19 +47,21 @@ function App() {
       <Header />
       <div className="cv-container">
         {isEditing ? (
-          <CVForm 
-            cvData={cvData} 
-            onDataUpdate={handleDataUpdate} 
-            onSubmit={handleSubmit} 
+          <CVForm
+            cvData={cvData}
+            onDataUpdate={handleDataUpdate}
+            onSubmit={handleSubmit}
           />
         ) : (
-          <CVPreview 
-            cvData={cvData} 
-            onEdit={handleEdit} 
+          <CVPreview
+            cvData={cvData}
+            onEdit={handleEdit}
           />
         )}
       </div>
+
     </div>
+
   );
 }
 

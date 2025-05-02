@@ -1,0 +1,93 @@
+.cv-preview {
+    padding: 2rem;
+  }
+  
+  .preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .preview-header h2 {
+    color: #2c3e50;
+  }
+  
+  .preview-section {
+    margin-bottom: 2rem;
+  }
+  
+  .preview-section h3 {
+    color: #3498db;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .preview-content {
+    padding: 0 1rem;
+  }
+  
+  .preview-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .preview-contact {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .preview-institution, .preview-company {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+  }
+  
+  .preview-position {
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+  }
+  
+  .preview-dates {
+    color: #7f8c8d;
+    font-style: italic;
+  }
+  
+  .preview-responsibilities {
+    margin-top: 0.5rem;
+    white-space: pre-line;
+  }
+  
+  .preview-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .edit-btn {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background-color: #27ae60;
+  }
