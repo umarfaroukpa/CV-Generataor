@@ -23,25 +23,26 @@ function CVForm({ cvData, onDataUpdate, onSubmit }) {
 
   return (
     <form className="cv-form" onSubmit={handleSubmit}>
-      <GeneralInfo 
-        generalInfo={cvData.generalInfo} 
-        onChange={handleGeneralInfoChange} 
+      <GeneralInfo
+        generalInfo={cvData.generalInfo}
+        onChange={handleGeneralInfoChange}
       />
-      
-      <Education 
-        education={cvData.education} 
-        onChange={handleEducationChange} 
+
+      <Education
+        education={cvData.education}
+        onChange={handleEducationChange}
       />
-      
-      <Experience 
-        experience={cvData.experience} 
-        onChange={handleExperienceChange} 
+
+      <Experience
+        experience={cvData.experience}
+        onChange={handleExperienceChange}
       />
-      
+
       <div className="form-actions">
         <button type="submit" className="submit-btn">Generate CV</button>
       </div>
     </form>
+
   );
 }
 

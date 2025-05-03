@@ -3,6 +3,7 @@ import Header from './components/Header';
 import CVForm from './components/CVForm';
 import CVPreview from './components/CVPreview';
 import './styles/App.css';
+import Footer from './components/Footer';
 
 function App() {
   const [cvData, setCVData] = useState({
@@ -59,7 +60,7 @@ function App() {
           />
         )}
       </div>
-
+      <Footer />
     </div>
 
   );
