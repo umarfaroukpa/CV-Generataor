@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header.jsx';
-import CVForm from './components/Cvform.jsx';
-import CVPreview from './components/Cvpreview.jsx';
+import CVForm from './components/CVForm.jsx';
+import CVPreview from './components/CVPreview.jsx';
 import './styles/App.css';
 import Footer from './components/Footer.jsx';
 
