@@ -4,7 +4,7 @@ import Education from './Education';
 import Experience from './Experience';
 import '../styles/CVForm.css';
 
-function CVForm({ cvData, onDataUpdate, onSubmit }) {
+function Form({ cvData, onDataUpdate, onSubmit }) {
   const handleGeneralInfoChange = (generalInfo) => {
     onDataUpdate('generalInfo', generalInfo);
   };
@@ -47,4 +47,4 @@ function CVForm({ cvData, onDataUpdate, onSubmit }) {
   );
 }
 
-export default CVForm;
+export default Form;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Header from './components/Header.jsx';
-import CVForm from './components/Form.jsx';
+import Form from './components/Form.jsx';
 import CVPreview from './components/CVPreview.jsx';
 import './styles/App.css';
 import Footer from './components/Footer.jsx';
@@ -48,7 +48,7 @@ function App() {
       <Header />
       <div className="cv-container">
         {isEditing ? (
-          <CVForm
+          <Form
             cvData={cvData}
             onDataUpdate={handleDataUpdate}
             onSubmit={handleSubmit}
