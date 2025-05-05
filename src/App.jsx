@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header.jsx';
-import Form from './components/Form.jsx';
 import CVPreview from './components/CVPreview.jsx';
+import Form from './components/Form.jsx';
 import './styles/App.css';
 import Footer from './components/Footer.jsx';
 
@@ -62,7 +62,6 @@ function App() {
       </div>
       <Footer />
     </div>
-
   );
 }
 
