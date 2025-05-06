@@ -62,7 +62,7 @@ cv-generator/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── CVForm.jsx
+│   │   ├── Form.jsx
 │   │   ├── CVPreview.jsx
 │   │   ├── Education.jsx
 │   │   ├── Experience.jsx
@@ -70,7 +70,7 @@ cv-generator/
 │   │   └── Header.jsx
 │   ├── styles/
 │   │   ├── App.css
-│   │   ├── CVForm.css
+│   │   ├── Form.css
 │   │   ├── CVPreview.css
 │   │   ├── FormSection.css
 │   │   └── Header.css
@@ -96,7 +96,7 @@ This project was built with React and Vite. The application uses React's compone
 ### Key Components
 
 - **App.jsx**: Main container component that manages application state
-- **CVForm.jsx**: Form container with sections for different information types
+- **Form.jsx**: Form container with sections for different information types
 - **CVPreview.jsx**: Displays the formatted CV based on user input
 - **Form Section Components**: Individual components for each section of information
 
