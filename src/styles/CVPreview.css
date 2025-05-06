@@ -91,3 +91,125 @@
   .edit-btn:hover {
     background-color: #27ae60;
   }
+  .cv-preview-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .preview-header h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .preview-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .generate-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .generate-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .generate-button:hover {
+    background-color: #45a049;
+  }
+  
+  .preview-section {
+    margin-bottom: 25px;
+  }
+  
+  .preview-section h3 {
+    font-size: 18px;
+    color: #333;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 12px;
+  }
+  
+  .preview-content {
+    padding-left: 15px;
+  }
+  
+  .preview-content h4 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #444;
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+  }
+  
+  .experience-header p {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+  }
+  
+  .position-title {
+    font-weight: 600;
+    color: #555;
+    margin: 0 0 8px 0;
+  }
+  
+  .pdf-success-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pdf-success-message button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pdf-success-message button:hover {
+    background-color: #4cae4c;
+  }
+  
