@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import '../styles/FormSection.css';
+import '../styles/Formsection.css';
 
 function Experience({ experience, onChange }) {
   const [formData, setFormData] = useState({ ...experience });
