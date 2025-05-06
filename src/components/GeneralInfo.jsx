@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../styles/FormSection.css';
+import '../styles/Formsection.css';
 
 function GeneralInfo({ generalInfo, onChange }) {
   const [formData, setFormData] = useState({ ...generalInfo });
